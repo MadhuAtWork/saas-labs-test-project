@@ -5,7 +5,7 @@ import "./App.css";
 const FatchApi = () => {
   const [data, setData] = useState([]);
   const [currentPage, setCurrentPage] = useState(1);
-  const [error, setError] = useState(null); // New state for error handling
+  const [error, setError] = useState(null);
   const recordsPerPage = 5;
 
   const baseUrl = `https://raw.githubusercontent.com/saaslabsco/frontend-assignment/refs/heads/master/frontend-assignment.json`;
