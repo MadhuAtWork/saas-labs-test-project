@@ -62,7 +62,7 @@ button:not(:disabled):hover {
 }
 
 .tableDiv {
-  font-family: Arial, sans-serif;
+/*   font-family: Arial, sans-serif; */
   margin: 20px;
   border: 0.5px solid #dddddd;
   box-shadow: 4px 4px 7px 2px #a9a8a8;
